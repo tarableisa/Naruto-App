@@ -110,7 +110,7 @@ class _DetailScreenState extends State<DetailScreen> {
                                 ),
                                 const SizedBox(height: 10),
                                 Text(
-                                  "Kekkei Genkai: ${_detailData!['personal']["kekkeiGenaki"] ?? 'Empty'}",
+                                  "Kekkei Genkai: ${_detailData!['personal']["kekkeiGenkai"] ?? 'Empty'}",
                                   style: const TextStyle(fontSize: 16),
                                 ),
                                 const SizedBox(height: 10),
