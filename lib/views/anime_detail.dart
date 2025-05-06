@@ -120,7 +120,7 @@ class _DetailScreenState extends State<DetailScreen> {
                                 ),
                                 const SizedBox(height: 10),
                                 Text(
-                                  "Family: ${_detailData!['family']?['creator'] ?? 'No Family Info'}",
+                                  "Family: ${_detailData!['family'] ?? 'No Family Info'}",
                                   style: const TextStyle(fontSize: 16),
                                 ),
                                 const SizedBox(height: 10),
